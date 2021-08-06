@@ -28,4 +28,5 @@ stages:
               repository: 'infymscontainers'
               command: 'buildAndPush'
               Dockerfile: '**/Dockerfile'
+              tags: $(tag)
                
